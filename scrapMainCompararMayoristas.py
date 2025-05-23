@@ -179,7 +179,9 @@ def comparar_precios(producto):
     else:
         print("❌ No se encontraron productos en ninguna tienda.")
 
-# ---- Punto de entrada del script ----
-if __name__ == "__main__":
-    producto = input("🔍 Ingresá el producto que querés buscar: ")
-    comparar_precios(producto)
+__all__ = ["buscar_en_carrefour_argentina", "buscar_en_maxiconsumo", "buscar_en_yaguar"]
+
+# # ---- Punto de entrada del script ----
+# if __name__ == "__main__":
+#     producto = input("🔍 Ingresá el producto que querés buscar: ")
+#     comparar_precios(producto)
